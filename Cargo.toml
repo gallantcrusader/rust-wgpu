@@ -1,0 +1,19 @@
+[package]
+name = "wgpu02"
+version = "0.1.0"
+authors = ["jack xu", "gallantcrusader"]
+edition = "2021"
+
+[dependencies]
+wgpu = "22.1.0"
+cgmath = "0.18"
+env_logger = "0.11.5"
+futures = "0.3"
+gfx-hal = "0.9"
+image = "0.25.2"
+log = "0.4"
+pollster = "0.3"
+winit = "0.30.5"
+bytemuck = { version = "1.4", features = ["derive"] }
+anyhow = "1.0"
+rand ="0.8"
